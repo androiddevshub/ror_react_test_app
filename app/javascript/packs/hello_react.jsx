@@ -4,24 +4,12 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import PropTypes from 'prop-types'
-import TestComp from './components/TestComp'
-
-const Hello = props => (
-  <div>Hello {props.name}!</div>
-)
-
-Hello.defaultProps = {
-  name: 'Shubham'
-}
-
-Hello.propTypes = {
-  name: PropTypes.string
-}
+import 'bootstrap/dist/css/bootstrap.min.css';
+import MainComp from './components/MainComp'
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <TestComp />,
+    <MainComp />,
     document.body.appendChild(document.createElement('div')),
   )
 })

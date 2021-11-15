@@ -29,6 +29,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'grape'
 gem "grape_on_rails_routes"
 
+gem 'foreman'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 

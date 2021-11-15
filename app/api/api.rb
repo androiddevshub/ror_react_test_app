@@ -5,7 +5,7 @@ class Api < Grape::API
   default_error_formatter :json
   content_type :json, "application/json"
 
-  mount Users
+  mount Graphs
 
   before do
     header["Access-Control-Allow-Origin"] = "*"
